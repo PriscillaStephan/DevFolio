@@ -12,10 +12,10 @@ const greeting = {
   username: "Priscilla Stephan",
   title: "Hi, I'm Priscilla",
   subTitle: emoji(
-    "A passionate Software developer 🚀 having an experience of designing and building Web and Mobile applications And Antomation Testing Softwares with Reactjs / Nodejs / Selenuim and some other cool libraries and frameworks."
-  ),
+    "A passionate Software developer 🚀 having  experience in designing and building Web and Mobile applications And Automation Testing Softwares with Reactjs / Nodejs / Selenium and some other cool libraries and frameworks."
+    ),
   resumeLink:
-  "https://drive.google.com/file/d/1eetkV6wCZssjQ9YFONu5WHzHAALkFz-n/view?usp=sharing",
+  "https://drive.google.com/file/d/11otk0Oytv74DE-6qCcwMk-40Rg_p-dqg/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,17 +38,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE ENGINEER WHO CAN CODE AND TEST SOFTWARES USING AUTOMATION SELENIUM TECHNOLOGY..",
+  subTitle: "SOFTWARE ENGINEER WHO CAN CODE AND TEST SOFTWARE USING AUTOMATION SELENIUM TECHNOLOGY...",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean."
     ),
     emoji(
-      "⚡ Creating Automation Software testing Frameworks uisng Selenuim "
+      "⚡ Creating Automation Software testing Frameworks using Selenium. "
     )
   ],
 
@@ -107,7 +107,7 @@ const educationInfo = {
       subHeader: "Software Testing and Automation Specialization",
       duration: "January 2021 - May 2021",
       desc: "Develop Skills in Software Testing. Practice and master theory, techniques, and tools to effectively test software.",
-      descBullets: [" cover black-box and white-box testing, automated testing, web & mobile testing, and formal testing theory and techniques, which will prepare to you to plan and perform effective testing of your software.",
+      descBullets: [" cover black-box and white-box testing, automated testing, web & mobile testing, and formal testing theory and techniques, which will prepare you to plan and perform effective testing of your software.",
       "Distinguish between verification and validation describing the key differences between them.",
       "Write automated functional tests for both front-end and back-end code",
       "Measure the fault-finding effectiveness of a functional test suite using mutation testing.",
