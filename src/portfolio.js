@@ -213,7 +213,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "https://clone-62dab.web.app/"
         }
         //  you can add extra buttons here.
       ]
