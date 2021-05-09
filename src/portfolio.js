@@ -207,9 +207,9 @@ const bigProjects = {
   subtitle: "SOME OF MY PERSONAL PROJECTS & STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      //image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/amazon-clone.jpg"),
       projectName: "Amazon Clone",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Clone of the Amazon website using ReactJS and Firebase. the Web Application comes in with full E-commerce functionality.",
       footerLink: [
         {
           name: "Visit Website",
