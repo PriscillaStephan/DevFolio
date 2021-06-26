@@ -301,7 +301,6 @@ const achievementSection = {
 };
 
 // Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle:

@@ -3,7 +3,8 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
 import landingPerson from "../../assets/lottie/landingPerson";
-import workAtNightDark from "../../assets/lottie/workAtNightDark";
+import workAtNightDark from "../../assets/lottie/blackworkAtNightDark";
+import whiteworkAtNightDark from "../../assets/lottie/whiteworkAtNightDark.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -50,13 +51,10 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            { isDark && illustration.animated ? (
               <DisplayLottie animationData={workAtNightDark} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
+              <DisplayLottie animationData={whiteworkAtNightDark} />
             )}
           </div>
         </div>
