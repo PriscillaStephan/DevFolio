@@ -298,8 +298,30 @@ const blogSection = {
       title: "Getting Started with Unit Testing in C#",
       description:
         "the NUnit framework gives you a utility library to write your test and a Test Runner which runs your tests and gives you a report of passing and failing tests."
+    },
+    {
+      url:
+        "https://priscillastephan.medium.com/what-is-a-unit-testable-c-code-architecture-3531456a527e ",
+      title: "What is a Unit testable C# code architecture",
+      description:
+        "There is one universal tip for writing a unit-testable code. You should just use the SOLID principle..."
+    },
+    {
+      url:
+        "https://priscillastephan.medium.com/what-is-moq-and-how-to-use-it-to-ease-unit-testing-88e849010f6e",
+      title: "What is Moq and How to Use it to Ease Unit Testing",
+      description:
+        "Moq is a mocking framework built to facilitate the testing of components with dependencies."
+    },
+    {
+      url:
+        "https://priscillastephan.medium.com/adding-nunit-test-project-12c489cf9ff0",
+      title: "Adding NUnit test project",
+      description:
+        "It is best practice to keep your unit tests apart from your production code, so we’ll add a new project that includes our tests."
     }
   ],
+  meduimbloglink: "https://priscillastephan.medium.com/",
   display: true // Set false to hide this section, defaults to true
 };
 
