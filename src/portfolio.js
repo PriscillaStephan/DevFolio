@@ -174,34 +174,42 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Quality Assurance Automation Engineer",
+      role: "QA Automation Engineer",
       company: "OnSite SAL",
-      companylogo: require("./assets/images/software-testing-software.jpg"),
+      companylogo: require("./assets/images/bugs.gif"),
       date: "Sep 2020 – Present",
       desc:
-        "Qa Automation Engineer using White Box, Black Box, selenium testing, Regression & Exploratory Testing for Android, ios & web Apps.",
-     /* descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
-      ]*/
+        " ",
+      descBullets: [
+        "Built an Automation Framework with Selenuim & C# Xunit.",
+        "Regression & Exploratory Testing for Mobile & Web Apps.",
+        "White Box Testing.",
+        "Black Box Testing...",
+      ]
     },
     {
       role: "Web Developer",
       company: "General Paint",
-      companylogo: require("./assets/images/web.jpg"),
+      companylogo: require("./assets/images/webdev3.gif"),
       date: "Jan 2020 – Sep 2020",
       desc:   
-        "Building a Complete web app industry solution using Yii2 php framework & node.js. Testing the code using Codeception"
-    },
+        "",
+        descBullets: [
+          "Building a Complete web app industry solution using Yii2 php framework & node.js.",
+          "Testing the code using Codeception...",
+        ]
+      },
     {
       role: "Junior Android Developer",
       company: "Neorcha",
-      companylogo: require("./assets/images/appdevelopment.jpg"),
+      companylogo: require("./assets/images/mobiledev.gif"),
       date: "Sept 2018 – Dec 2019",
       desc:
-        "Building Hotel and University Management Mobile Apps, using Android Studio & Java"
+        "",
+        descBullets: [
+          "Building Hotel and University Management Mobile Apps, using Android Studio & Java.",
+          "Revamping an old Hotel app to the latest android UI...",
+        ]
     }
   ]
 };

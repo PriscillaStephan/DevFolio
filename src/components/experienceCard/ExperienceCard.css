@@ -53,7 +53,7 @@
 .experience-div-company {
   position: absolute;
   background: transparent;
-  height: 9rem;
+  height: 8rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -80,7 +80,7 @@
   object-fit: cover;
   left: 0;
   right: 0;
-  top: 7rem;
+  top: 6rem;
   margin-left: auto;
   margin-right: auto;
   width: 8rem;
@@ -130,11 +130,11 @@
     font-size: 22px;
   }
   .experience-text-date {
-    font-size: 18px;
+    font-size: 16px;
   }
   .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 9rem;
+    height: 8.5rem;
   }
 }
 
