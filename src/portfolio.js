@@ -91,6 +91,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "Selenium",
+      fontAwesomeClassname: "fab fa-stripe-s"
+    },
+    {
+      skillName: "Appium",
+      fontAwesomeClassname: "fas fa-mobile-alt"
+    }, 
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     }
   ],
   display: true // Set false to hide this section, defaults to true
