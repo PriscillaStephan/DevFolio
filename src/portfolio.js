@@ -12,8 +12,7 @@ const greeting = {
   username: "Priscilla Stephan",
   title: "Hi, I'm Priscilla",
   subTitle: emoji(
-    "A passionate Software developer 🚀 having  experience in designing and building Web and Mobile applications And Automation Testing Softwares with Reactjs / Nodejs / Selenium and some other cool libraries and frameworks."
-    ),
+    "A passionate Software Developer Engineer in Test (SDET) 🚀 with expertise developing and implementing Web and Mobile apps, as well as Automation Testing Frameworks with Reactjs / Nodejs / Selenium and other cool libraries and frameworks."    ),
   resumeLink:
   "https://drive.google.com/file/d/11otk0Oytv74DE-6qCcwMk-40Rg_p-dqg/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -329,19 +328,27 @@ const blogSection = {
       description:
         "There is one universal tip for writing a unit-testable code. You should just use the SOLID principle..."
     },
-    {
+   /* {
       url:
         "https://priscillastephan.medium.com/what-is-moq-and-how-to-use-it-to-ease-unit-testing-88e849010f6e",
       title: "What is Moq and How to Use it to Ease Unit Testing",
       description:
         "Moq is a mocking framework built to facilitate the testing of components with dependencies."
-    },
+    },*/
     {
       url:
         "https://priscillastephan.medium.com/adding-nunit-test-project-12c489cf9ff0",
       title: "Adding NUnit test project",
       description:
         "It is best practice to keep your unit tests apart from your production code, so we’ll add a new project that includes our tests."
+    },
+    {
+      url:
+        "https://priscillastephan.medium.com/install-setup-react-js-app-d1ccf376c989",
+      title: "Install & Setup React.js porject",
+      image:  require("./assets/images/amazon-clone2.png"),
+      description:
+        "In this article, we will set up a project using React / React Router / React Context API / Firebase - Authentication, Create Navbar and Deploy to Firebase Hosting "
     }
   ],
   meduimbloglink: "https://priscillastephan.medium.com/",
